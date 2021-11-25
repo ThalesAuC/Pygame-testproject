@@ -1,7 +1,11 @@
 import sys, pygame
+from pygame import display
 pygame.init()
+pygame.display.set_caption('Mortadelaboy vs Coxinhaman')
+programIcon = pygame.image.load('mortadelaboy.png')
+pygame.display.set_icon(programIcon)
 
-size = width, height = 1720, 1080
+size = width, height = 1280, 720
 speed = [2,2]
 black = 0,0,0
 
